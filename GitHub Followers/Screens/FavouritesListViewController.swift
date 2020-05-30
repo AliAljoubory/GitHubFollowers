@@ -38,6 +38,8 @@ class FavouritesListViewController: GFDataLoadingViewController {
         tableView.delegate = self
         tableView.dataSource = self
         
+        tableView.rowHeight = 80
+        
         tableView.register(FavouriteCell.self, forCellReuseIdentifier: FavouriteCell.reuseID)
         tableView.removeExcessCells()
     }

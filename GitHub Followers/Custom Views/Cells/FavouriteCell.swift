@@ -45,9 +45,7 @@ class FavouriteCell: UITableViewCell {
             usernameLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor),
             usernameLabel.leadingAnchor.constraint(equalTo: avatarImageView.trailingAnchor, constant: 24),
             usernameLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -padding),
-            usernameLabel.heightAnchor.constraint(equalToConstant: 40),
-            
-            self.heightAnchor.constraint(equalToConstant: 90)
+            usernameLabel.heightAnchor.constraint(equalToConstant: 40)
         ])
     }
 }
